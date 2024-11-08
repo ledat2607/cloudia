@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "types": ["node"]  // Thêm dòng này
+  },
+  "include": ["*.ts", "config/*.ts", "models/*.ts", "routes/*.ts"],
+  "exclude": ["node_modules"]
+}
